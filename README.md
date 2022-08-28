@@ -1,7 +1,9 @@
 # Docker
-Simple docker example
+Simple docker example<br>
+For test it - U should have Docker Desktop (<a href="https://docs.docker.com/get-docker/">Get Docker</a>) installed.
 
-#### Inside docker-crash-course folder run -> 
+
+#### Inside docker-crash-course folder run following commands
 
 #### Start project:
 
@@ -15,7 +17,7 @@ docker-compose up
 docker-compose down
 ```
 
-#### Stop project with removeng all images and volumes for this project
+#### Stop project with removing all images and volumes for this project
 
 ```bash
 docker-compose down --rmi all -v
